@@ -56,11 +56,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Rood** -kies uit zwart, rood óf blauw-
+**Rood**
 
-**Surface plane** -kies uit responsive óf surface plane-
+**Surface plane** 
 
-**todo** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**todo**
 
 **Screenshot(s):**
 

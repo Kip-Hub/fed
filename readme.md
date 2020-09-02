@@ -70,5 +70,5 @@ Ik neem aan dat het nog mogelijk is om te switchen, dit was mijn eerste (misschi
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
-
+![breakdownschets 1](images/overview.png)
 

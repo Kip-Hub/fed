@@ -71,5 +71,4 @@ Ik neem aan dat het nog mogelijk is om te switchen, dit was mijn eerste (misschi
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
 
-![-lmao-](images/testafbeelding.png)
 

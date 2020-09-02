@@ -56,11 +56,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-Niveau:    **Rood**
+**Niveau:**    Rood
 
-Focus op:  **Surface plane** 
+**Focus op:**  Surface plane
 
-Website:   **www.cocacolanederland.nl** 
+**Website:**   www.cocacolanederland.nl
 Ik neem aan dat het nog mogelijk is om te switchen, dit was mijn eerste (misschien te optimistische) ingeving
 
 **Screenshot(s):**

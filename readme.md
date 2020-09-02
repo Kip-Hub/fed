@@ -61,7 +61,7 @@ Niveau:    **Rood**
 Focus op:  **Surface plane** 
 
 Website:   **www.cocacolanederland.nl** 
-Ik neem aan dat het nog mogelijk is om te switchen, dit was mijn eerste (misschien te optimistiche) ingeving
+Ik neem aan dat het nog mogelijk is om te switchen, dit was mijn eerste (misschien te optimistische) ingeving
 
 **Screenshot(s):**
 

@@ -67,7 +67,7 @@ Ik neem aan dat het nog mogelijk is om te switchen, dit was mijn eerste (misschi
 
 ![screenshot landing](images/1.png)
 ![screenshot menu-items](images/2.png)
-![screenshot item](images/3.png)
+![screenshot item](images/4.png)
 
 **Breakdown-schets(en):**
 

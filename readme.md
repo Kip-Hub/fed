@@ -57,8 +57,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 
 **startniveau:** Rood
+
 **Je focus:** Surface plane
+
 **Je opdracht:** www.cocacolanederland.nl
+
 
 **Screenshot(s):**
 

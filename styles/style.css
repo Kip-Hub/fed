@@ -9,14 +9,22 @@
 header {
     background: black;
     color: white;
-    padding: 3px;
+    padding: 0.1em;
     text-align: center;
+    font-family: Calibri;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+nav {
+    position: absolute;
 }
 
 main {
     display: flex;
     color: white;
-    font-size: 30px;
+    font-size: 2em;
     font-family: Calibri;
     font-weight: bold;
     text-transform: uppercase;
@@ -26,37 +34,37 @@ main {
 
 main section:first-of-type {
     background: grey;
-    height: 750px;
+    flex: 1 1 750px;
     padding-top: 325px;
 }
 
 main section:nth-of-type(2) {
     background: darkgrey;
-    height: 300px;
+    flex: 1 1 300px;
     padding-top: 120px;
 }
 
 main section:nth-of-type(3) {
     background: grey;
-    height: 150px;
+    flex: 1 1 150px;
     padding-top: 50px;
 }
 
 main section:nth-of-type(4) {
     background: darkgrey;
-    height: 100px;
+    flex: 1 1 100px;
     padding-top: 30px;
 }
 
 main section:nth-of-type(5) {
     background: grey;
-    height: 250px;
+    flex: 1 1 250px;
     padding-top: 100px;
 }
 
 main section:last-of-type {
     background: darkgrey;
-    height: 250px;
+    flex: 1 1 250px;
     padding-top: 100px;
 }
 

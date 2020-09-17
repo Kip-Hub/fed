@@ -49,8 +49,8 @@ Onderdelen zo positioneren als ik ze wil, blijft wel lastig. ik krijg het meesta
 
 **Screenshot(s):**
 
-![Voortgang screenshot 1](images/voortgang1.png)
-![Voortgang screenshot 2](images/voortgang2.png)
+![-Voortgang screenshot 1-](images/voortgang1.png)
+![-Voortgang screenshot 2-](images/voortgang2.png)
 
 ### Agenda voor meeting
 

@@ -38,15 +38,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Wat goed ging: 
+
+Mijn website begint aardig op het origineel te lijken, en ik begrijp inmiddels ook hoe CSS werkt zonder overal ID's en classes voor te gebruiken. 
+Ook flexbox wordt me steeds duidelijker.
+
+Wat niet zo goed ging:
+
+Onderdelen zo positioneren als ik ze wil, blijft wel lastig. ik krijg het meestal wel voor elkaar, maar weet dat het niet de 'juiste' manier is, en denk dat ik het me er zelf moeilijker mee maak omdat ik er in de komende weken omheen zal moeten werken.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![Voortgang screenshot 1](images/voortgang1.png)
+![Voortgang screenshot 2](images/voortgang2.png)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+- Hoe kunnen we de website zo responsive mogelijk maken?
+- Moeten we een hamburger menu werkend maken?
+- Hoe style je 2 html pagina's met 1 css?
+- Hoe maak je een caroussel?
+- Wanneer pas je eigenlijk flexbox toe?
 
 ### Verslag van meeting
 

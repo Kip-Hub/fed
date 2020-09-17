@@ -13,12 +13,26 @@ header {
     text-align: center;
     font-family: Calibri;
     font-weight: bold;
+    font-size: 0.5em;
     text-transform: uppercase;
     position: relative;
 }
 
-nav {
+header h1 {
     position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+nav a img {
+    padding: 0.5em;
+    max-width: 5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 main {
@@ -33,44 +47,121 @@ main {
 }
 
 main section:first-of-type {
-    background: grey;
     flex: 1 1 750px;
     padding-top: 325px;
+    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/homepage/carousel-600x900/leer-ons-kennen-nl-m.jpg);
+    background-repeat: no-repeat;
 }
 
 main section:nth-of-type(2) {
-    background: darkgrey;
-    flex: 1 1 300px;
-    padding-top: 120px;
+    flex: 1 1 250px;
+    padding-top: 100px;
+    background-image: url(../images/duurzaamheid.jpg);
+    background-repeat: no-repeat;
 }
 
 main section:nth-of-type(3) {
-    background: grey;
-    flex: 1 1 150px;
-    padding-top: 50px;
+    flex: 1 1 100px;
+    padding-top: 30px;
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
 }
 
 main section:nth-of-type(4) {
-    background: darkgrey;
-    flex: 1 1 100px;
-    padding-top: 30px;
+    flex: 1 1 160px;
+    padding-top: 55px;
+    background-image: url(../images/onze_merken.jpg);
+    background-repeat: no-repeat;
 }
 
 main section:nth-of-type(5) {
+    flex: 1 1 200px;
+    padding-top: 80px;
+    background-image: url(../images/leeronskennen.jpg);
+    background-repeat: no-repeat;
+}
+
+main section:nth-of-type(6) {
+    flex: 1 1 200px;
+    padding-top: 80px;
+    background-image: url(../images/campagnes.jpg);
+    background-repeat: no-repeat;
+}
+
+main section:nth-of-type(7) {
+    flex: 1 1 250px;
+    padding-top: 100px;
+    background-image: url(../images/werken_bij.jpg);
+    background-repeat: no-repeat;
+}
+
+main section:nth-of-type(8) {
+    background: darkgrey;
+    flex: 1 1 200px;
+    padding-top: 80px;
+    background-image: url(../images/faq.jpg);
+    background-repeat: no-repeat;
+}
+
+main section:nth-of-type(9) {
     background: grey;
     flex: 1 1 250px;
     padding-top: 100px;
+    background-image: url(../images/pers.jpg);
+    background-repeat: no-repeat;
 }
 
 main section:last-of-type {
-    background: darkgrey;
     flex: 1 1 250px;
     padding-top: 100px;
+    background-image: url(../images/have_fun.jpg);
+    background-repeat: no-repeat;
 }
 
 footer {
+    font-family: Calibri;
     background: black;
     color: white;
-    padding: 100px;
     text-align: center;
+    padding-top: 0.5em;
+}
+
+footer p:first-of-type {
+    padding-left: 1em;
+    text-align: left;
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+}
+
+footer p:nth-of-type(2) {
+    padding-left: 1em;
+    text-align: left;
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+}
+
+footer p:nth-of-type(3) {
+    padding-left: 1em;
+    text-align: left;
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    padding-top: 1em;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+footer p:last-of-type {
+    padding-top: 3em;
+    padding-bottom: 1em;
 }

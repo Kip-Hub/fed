@@ -30,7 +30,35 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Wat goed ging:
+
+Het (nog gedeeltelijk) responsive maken van de pagina heeft toch wel meer moeite gekost dan ik had gehoopt. Maar is uiteindelijk best wel goed gelukt.
+
+Wat niet zo goed ging:
+
+Ik had moeite om mezelf aan te sporen om echt voortgang te maken voor het vak, uiteindelijk is het wel gelukt wat dingen toe te voegen, maar ik denk dat ik een beetje achterloop in vergelijking met de rest van het groepje. Ik heb een poging gedaan een css slideshow animatie te maken zoals op de originele website van cocacolanederland, maar dit was wel erg ingewikkeld. Uiteindelijk een soort van werkend gekregen met veel hulp van Google...
+
+
+
+**Screenshot(s):**
+
+![-Voortgang screenshot 1-](images/Voortgang2.1.jpg)
+![-Voortgang screenshot 2-](images/Voortgang2.2.png)
+
+
+### Agenda voor meeting
+
+- Carrousel (css/html, of js?)
+- Css image slider animation
+- Text responsive maken
+- :hover bug (Jelle)
+- Slider van tekst en dingen toevoegen in winkelmandje
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
 
 
 

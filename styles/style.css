@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+}
+
 header {
     background: black;
     color: white;
@@ -15,12 +19,14 @@ header {
     font-weight: bold;
     font-size: 0.5em;
     text-transform: uppercase;
-    position: relative;
+    position: sticky;
+    min-width: 98%;
+    top: 0;
+    z-index: 1;
 }
 
 header h1 {
     position: absolute;
-    top: 0;
     left: 25%;
 }
 
@@ -32,88 +38,154 @@ nav a img {
 nav {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row dense;
     color: white;
     font-size: 2em;
     font-family: Calibri;
     font-weight: bold;
     text-transform: uppercase;
-    flex-direction: column;
     text-align: center;
 }
 
-main section:first-of-type {
-    flex: 1 1 750px;
-    padding-top: 325px;
-    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/homepage/carousel-600x900/leer-ons-kennen-nl-m.jpg);
-    background-repeat: no-repeat;
+main a {
+    text-decoration: none;
+    color: white;
 }
 
-main section:nth-of-type(2) {
-    flex: 1 1 250px;
-    padding-top: 100px;
-    background-image: url(../images/duurzaamheid.jpg);
+main section:first-of-type {
+    padding: 355px 0px 350px 0px;
     background-repeat: no-repeat;
+    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/homepage/carousel-600x900/leer-ons-kennen-nl-m.jpg);
+    background-position: center center;
+}
+
+
+/* 
+Slideshow
+@keyframes imageAnimation {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    8% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+    17% {
+        opacity: 1
+    }
+    25% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+main section>figure {
+    animation: imageAnimation 50s linear infinite 0s;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center center;
+    color: transparent;
+    height: 750px;
+    left: -40px;
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+
+section>figure:nth-child(1) {
+    background-image: url(../images/1.jpg);
+}
+
+section>figure:nth-child(2) {
+    animation-delay: 6s;
+    background-image: url(../images/2.jpg);
+}
+
+section>figure:nth-child(3) {
+    animation-delay: 12s;
+    background-image: url(../images/3.jpg);
+} */
+
+main section:nth-of-type(2) {
+    padding: 100px 0 95px 0;
+    background-image: url(../images/originalsize/duurzaamheid.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
 }
 
 main section:nth-of-type(3) {
-    flex: 1 1 100px;
-    padding-top: 30px;
-    background-image: url(../images/contact.jpg);
+    padding: 30px 0 30px 0;
+    background-image: url(../images/originalsize/contact.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
 }
 
 main section:nth-of-type(4) {
-    flex: 1 1 160px;
-    padding-top: 55px;
-    background-image: url(../images/onze_merken.jpg);
+    padding: 55px 0 55px 0;
+    background-image: url(../images/originalsize/onzemerken.jpg);
+    background-size: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
 main section:nth-of-type(5) {
-    flex: 1 1 200px;
-    padding-top: 80px;
-    background-image: url(../images/leeronskennen.jpg);
+    padding: 80px 0 80px 0;
+    background-image: url(../images/originalsize/leeronskennen.jpg);
     background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center center;
 }
 
 main section:nth-of-type(6) {
-    flex: 1 1 200px;
-    padding-top: 80px;
-    background-image: url(../images/campagnes.jpg);
+    padding: 60px 0 60px 0;
+    background-image: url(../images/originalsize/campagnes.jpg);
     background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center center;
 }
 
 main section:nth-of-type(7) {
-    flex: 1 1 250px;
-    padding-top: 100px;
-    background-image: url(../images/werken_bij.jpg);
+    padding: 50px 0 50px 0;
+    background-image: url(../images/originalsize/werkenbij.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
 }
 
 main section:nth-of-type(8) {
-    flex: 1 1 200px;
-    padding-top: 80px;
-    background-image: url(../images/faq.jpg);
+    padding: 60px 0 60px 0;
+    background-image: url(../images/originalsize/faq.jpg);
     background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center center;
 }
 
 main section:nth-of-type(9) {
-    flex: 1 1 250px;
-    padding-top: 100px;
-    background-image: url(../images/pers.jpg);
+    padding: 60px 0 60px 0;
+    background-image: url(../images/originalsize/pers.jpg);
     background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center center;
 }
 
 main section:last-of-type {
-    flex: 1 1 250px;
-    padding-top: 100px;
-    background-image: url(../images/have_fun.jpg);
+    padding: 80px 0 80px 0;
+    background-image: url(../images/originalsize/havefun.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 1.5em;
+    background-position: top center;
 }
 
 footer {
@@ -163,3 +235,76 @@ footer p:last-of-type {
     padding-top: 3em;
     padding-bottom: 1em;
 }
+
+.duurzaamheid main section:first-of-type {
+    background-image: url(../images/duurzaamheid.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.duurzaamheid main article {
+    display: flex;
+    color: black;
+    font-size: 0.8em;
+    font-family: Calibri;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex-direction: column;
+    text-align: center;
+}
+
+.duurzaamheid main article p {
+    display: flex;
+    color: black;
+    font-size: 0.5em;
+    font-family: Calibri;
+    font-weight: bold;
+    text-transform: lowercase;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (min-width:30em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        font-size: 2em;
+        font-family: Calibri;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    main section:first-of-type {
+        grid-column: 1/-1;
+        background-size: 100%;
+    }
+    main section:nth-of-type(2) {
+        grid-row: span 2;
+    }
+    main section:last-of-type {
+        grid-column: 1/-1;
+    }
+    main section:nth-of-type(8) {
+        grid-row: span 2;
+    }
+    header h1 {
+        position: absolute;
+        left: 35%;
+    }
+}
+
+@media (min-width:60em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: white;
+        font-size: 2em;
+        font-family: Calibri;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+@media (min-width:90em) {}

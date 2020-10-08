@@ -36,12 +36,21 @@ nav a img {
     max-width: 5em;
 }
 
+nav button img {
+    max-width: 2.7em;
+}
+
+nav button {
+    background-color: #000000;
+    border: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
 }
 
-main {
+.index main {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-flow: row dense;
@@ -53,12 +62,16 @@ main {
     text-align: center;
 }
 
-main a {
+.index main a {
     text-decoration: none;
     color: white;
 }
 
-main section:first-of-type {
+.index main section h2 {
+    font-size: 1em;
+}
+
+.index main section:first-of-type {
     padding: 355px 0px 350px 0px;
     background-repeat: no-repeat;
     background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/homepage/carousel-600x900/leer-ons-kennen-nl-m.jpg);
@@ -66,9 +79,7 @@ main section:first-of-type {
 }
 
 
-/* 
-Slideshow
-@keyframes imageAnimation {
+/* @keyframes imageAnimation {
     0% {
         animation-timing-function: ease-in;
         opacity: 0;
@@ -89,7 +100,7 @@ Slideshow
 }
 
 main section>figure {
-    animation: imageAnimation 50s linear infinite 0s;
+    animation: imageAnimation 20s linear infinite 0s;
     backface-visibility: hidden;
     background-size: cover;
     background-position: center center;
@@ -116,80 +127,98 @@ section>figure:nth-child(3) {
     background-image: url(../images/3.jpg);
 } */
 
-main section:nth-of-type(2) {
+.index main section:nth-of-type(2) {
     padding: 100px 0 95px 0;
     background-image: url(../images/originalsize/duurzaamheid.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
 }
 
-main section:nth-of-type(3) {
+.index main section:nth-of-type(3) {
     padding: 30px 0 30px 0;
     background-image: url(../images/originalsize/contact.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
 }
 
-main section:nth-of-type(4) {
+.index main section:nth-of-type(4) {
     padding: 55px 0 55px 0;
     background-image: url(../images/originalsize/onzemerken.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-main section:nth-of-type(5) {
+.index main section:nth-of-type(5) {
     padding: 80px 0 80px 0;
     background-image: url(../images/originalsize/leeronskennen.jpg);
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
     background-position: center center;
 }
 
-main section:nth-of-type(6) {
+.index main section:nth-of-type(6) {
     padding: 60px 0 60px 0;
     background-image: url(../images/originalsize/campagnes.jpg);
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
     background-position: center center;
 }
 
-main section:nth-of-type(7) {
+.index main section:nth-of-type(7) {
     padding: 50px 0 50px 0;
     background-image: url(../images/originalsize/werkenbij.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
 }
 
-main section:nth-of-type(8) {
+.index main section:nth-of-type(8) {
     padding: 60px 0 60px 0;
     background-image: url(../images/originalsize/faq.jpg);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center center;
 }
 
-main section:nth-of-type(9) {
+.index main section:nth-of-type(9) {
     padding: 60px 0 60px 0;
     background-image: url(../images/originalsize/pers.jpg);
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: cover;
     background-position: center center;
 }
 
-main section:last-of-type {
+.index main section:last-of-type {
     padding: 80px 0 80px 0;
     background-image: url(../images/originalsize/havefun.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 1.5em;
+    background-size: cover;
     background-position: top center;
 }
 
+@keyframes inzoomen {
+    0% {
+        background-size: 101%;
+    }
+    10% {
+        background-size: 105%;
+    }
+    100% {
+        background-size: 115%;
+    }
+}
+
+.index main section:hover:not(:first-of-type) {
+    animation-name: inzoomen;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
 footer {
+    margin-top: 2em;
     font-family: Calibri;
     background: black;
     color: white;
@@ -238,65 +267,139 @@ footer p:last-of-type {
 }
 
 .duurzaamheid main section:first-of-type {
-    background-image: url(../images/duurzaamheid.jpg);
+    padding: 355px 0px 200px 0px;
+    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/header-mobile/duurzaamheid-mobiel.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: right center;
 }
 
-.duurzaamheid main article {
-    display: flex;
+.duurzaamheid main article:first-of-type {
+    padding: 0 0.4em 0 0.4em;
+    color: black;
+    font-size: 2em;
+    font-family: Calibri;
+    flex-direction: column;
+    text-align: center;
+}
+
+.duurzaamheid main article:first-of-type h2 {
     color: black;
     font-size: 0.8em;
+    font-family: "Arial Black";
+    text-transform: uppercase;
+}
+
+.duurzaamheid main article:first-of-type p {
+    display: flex;
+    color: black;
+    font-size: 0.65em;
+    font-family: Calibri;
+    flex-direction: column;
+    text-align: center;
+}
+
+.duurzaamheid main article:nth-of-type(2) {
+    box-shadow: 1px 1px 3px #98989B;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+}
+
+.duurzaamheid main article:nth-of-type(2) h2 {
+    font-family: Calibri;
+    padding: 0 0.5em 0 0.5em;
+}
+
+.duurzaamheid main article:nth-of-type(2) p {
+    font-family: Calibri;
+    color: #98989B;
+    padding: 0 1em 0 1em;
+}
+
+.duurzaamheid main article img {
+    max-width: 100%;
+}
+
+.duurzaamheid main article button {
+    color: white;
+    background-color: #000000;
+    border: none;
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 0.3em;
+    margin: 0 0 1em 1em;
+}
+
+.duurzaamheid main section:nth-of-type(2) {
+    color: white;
     font-family: Calibri;
     font-weight: bold;
     text-transform: uppercase;
-    flex-direction: column;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.duurzaamheid main article p {
-    display: flex;
-    color: black;
-    font-size: 0.5em;
-    font-family: Calibri;
-    font-weight: bold;
-    text-transform: lowercase;
-    flex-direction: column;
-    text-align: center;
+.duurzaamheid main section:nth-of-type(2) section:first-of-type {
+    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/section-body/dranken-900x480.jpg);
+    background-size: cover;
+    padding: 50px 0 50px 0;
+}
+
+.duurzaamheid main section:nth-of-type(2) section:nth-of-type(2) {
+    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/section-body/water.jpg);
+    background-size: cover;
+    padding: 50px 0 50px 0;
+}
+
+.duurzaamheid main section:nth-of-type(2) section:nth-of-type(3) {
+    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/section-body/verpakkingen.jpg);
+    background-size: cover;
+    padding: 50px 0 50px 0;
+}
+
+.duurzaamheid main section:nth-of-type(2) section:nth-of-type(4) {
+    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/section-body/maatschappij.jpg);
+    background-size: cover;
+    padding: 50px 0 50px 0;
 }
 
 @media (min-width:30em) {
-    main {
-        display: grid;
+    .index main {
         grid-template-columns: 1fr 1fr;
-        color: white;
-        font-size: 2em;
-        font-family: Calibri;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-align: center;
     }
-    main section:first-of-type {
+    .index main section:first-of-type {
         grid-column: 1/-1;
-        background-size: 100%;
+        background-size: cover;
     }
-    main section:nth-of-type(2) {
+    .index main section:nth-of-type(2) {
         grid-row: span 2;
     }
-    main section:last-of-type {
+    .index main section:last-of-type {
         grid-column: 1/-1;
     }
-    main section:nth-of-type(8) {
-        grid-row: span 2;
+    .index main section:nth-of-type(6) {
+        padding: 80px 0 40px 0;
     }
-    header h1 {
+    .index main section:nth-of-type(8) {
+        grid-row: span 2;
+        padding: 110px 0 10px 0;
+    }
+    .index header h1 {
         position: absolute;
         left: 35%;
+    }
+    .duurzaamheid main article:nth-of-type(2) {
+        margin: 3em;
+    }
+    .duurzaamheid main section:nth-of-type(2) {
+        grid-template-columns: 1fr 1fr;
+        /* margin: 3em;  */
     }
 }
 
 @media (min-width:60em) {
-    main {
+    .index main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         color: white;
@@ -306,6 +409,17 @@ footer p:last-of-type {
         text-transform: uppercase;
         text-align: center;
     }
+    .index main section:nth-of-type(8) {
+        padding: 60px 0 60px 0;
+        grid-column: span 2;
+    }
 }
 
-@media (min-width:90em) {}
+@media (min-width:90em) {
+    .index main section:nth-of-type(8) {
+        padding: 60px 0 60px 0;
+    }
+    .index main section:nth-of-type(3) {
+        padding: 50px 0 10px 0;
+    }
+}

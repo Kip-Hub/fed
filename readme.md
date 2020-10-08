@@ -24,8 +24,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+Wat goed ging:
+
+Ik heb een groot stuk van de 2e pagina uitgewerkt, maar deze moet deels nog responsive worden, wel merk ik dat het gebruik van grid steeds makkelijker en logischer wordt.
+
+Wat niet zo goed ging:
+
+Ik ben er nog niet aan toegekomen om surface plane elementen te verwerken (zoals werkende menu-button, en andere uitklap-menu's), hier maak ik me echter nog geen zorgen om.
+
+**Screenshot(s):**
+
+![-Voortgang screenshot 1-](images/Voortgang3.1.png)
+![-Voortgang screenshot 2-](images/Voortgang3.2.png)
 
 
 ## Voortgang 2 (week 5)

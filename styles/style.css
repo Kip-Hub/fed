@@ -48,6 +48,44 @@ nav button {
 nav {
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+}
+
+header nav nav {
+    text-align: left;
+    left: 0em;
+    top: -300em;
+    width: 100%;
+    font-size: 2.4em;
+    position: absolute;
+    transition: 0.7s;
+    background-color: black;
+    z-index: -1;
+    padding-bottom: 50em;
+}
+
+header nav nav ul {
+    list-style: none;
+}
+
+header nav nav ul li {
+    border-bottom: 2px solid #202020;
+    padding-top: 0.4em;
+}
+
+header nav nav ul li a:hover {
+    transition: 0.25s;
+    color: #931616;
+}
+
+header nav nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav nav.hamburger {
+    list-style: none;
+    top: 1.9em;
 }
 
 .index main {
@@ -330,6 +368,11 @@ footer p:last-of-type {
     margin: 0 0 1em 1em;
 }
 
+.duurzaamheid main article button:hover {
+    transition: 0.25s;
+    background-color: red;
+}
+
 .duurzaamheid main section:nth-of-type(2) {
     color: white;
     font-family: Calibri;
@@ -390,11 +433,29 @@ footer p:last-of-type {
         left: 35%;
     }
     .duurzaamheid main article:nth-of-type(2) {
-        margin: 3em;
+        margin: 5em;
     }
-    .duurzaamheid main section:nth-of-type(2) {
+    .duurzaamheid main>section:nth-of-type(2) {
         grid-template-columns: 1fr 1fr;
-        /* margin: 3em;  */
+        margin: 5em;
+    }
+    header nav nav {
+        text-align: left;
+        left: -100em;
+        top: 1.9em;
+        width: 12em;
+        font-size: 2.4em;
+        position: absolute;
+        transition: 0.5s;
+        background-color: black;
+        z-index: -1;
+        height: 100%;
+        /* padding-bottom: 55em; */
+        opacity: 0.8;
+    }
+    header nav nav.hamburger {
+        list-style: none;
+        left: 0em;
     }
 }
 

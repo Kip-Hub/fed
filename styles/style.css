@@ -21,7 +21,7 @@ header {
     font-size: 0.5em;
     text-transform: uppercase;
     position: sticky;
-    min-width: 98%;
+    min-width: 98vw;
     top: 0;
     z-index: 1;
 }
@@ -52,16 +52,23 @@ nav {
 }
 
 header nav nav {
+    display: block;
     text-align: left;
     left: 0em;
-    top: -300em;
+    top: -50em;
     width: 100%;
     font-size: 2.4em;
     position: absolute;
     transition: 0.7s;
     background-color: black;
     z-index: -1;
-    padding-bottom: 50em;
+    height: 95.5vh;
+    overflow-y: hidden;
+}
+
+header nav nav.hamburger {
+    list-style: none;
+    top: 2em;
 }
 
 header nav nav ul {
@@ -71,6 +78,8 @@ header nav nav ul {
 header nav nav ul li {
     border-bottom: 2px solid #202020;
     padding-top: 0.4em;
+    padding-right: 0.2em;
+    margin-right: 1em;
 }
 
 header nav nav ul li a:hover {
@@ -81,11 +90,6 @@ header nav nav ul li a:hover {
 header nav nav ul li a {
     text-decoration: none;
     color: white;
-}
-
-header nav nav.hamburger {
-    list-style: none;
-    top: 1.9em;
 }
 
 .index main {
@@ -112,8 +116,8 @@ header nav nav.hamburger {
 .index main section:first-of-type {
     padding: 355px 0px 350px 0px;
     background-repeat: no-repeat;
-    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/homepage/carousel-600x900/leer-ons-kennen-nl-m.jpg);
-    background-position: center center;
+    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/homepage/carousel-1600x900/leer-ons-kennen.jpg);
+    background-position: 90% 0%;
 }
 
 
@@ -262,28 +266,46 @@ footer {
     color: white;
     text-align: center;
     padding-top: 0.5em;
+    overflow: hidden;
 }
 
-footer p:first-of-type {
+footer section h2:first-of-type {
     padding-left: 1em;
     text-align: left;
     padding-bottom: 1em;
     border-bottom: 1px solid white;
+    font-size: 1em;
+    text-transform: none;
+    font-weight: normal;
 }
 
-footer p:nth-of-type(2) {
-    padding-left: 1em;
-    text-align: left;
-    padding-bottom: 1em;
-    border-bottom: 1px solid white;
+footer section h2:hover {
+    cursor: pointer;
+    color: #931616;
 }
 
-footer p:nth-of-type(3) {
-    padding-left: 1em;
-    text-align: left;
-    padding-bottom: 1em;
-    border-bottom: 1px solid white;
+footer section:first-of-type .container {
+    list-style: none;
+    display: none;
+    background-color: white;
+    padding-bottom: 0.2em;
 }
+
+footer section:first-of-type .container.volgons {
+    display: block;
+}
+
+footer section:first-of-type ul {
+    list-style: none;
+    display: flex;
+}
+
+footer section:first-of-type ul li img {
+    max-width: 3.5em;
+}
+
+
+/*  Hier verder met footer*/
 
 footer ul {
     list-style: none;
@@ -306,10 +328,10 @@ footer p:last-of-type {
 
 .duurzaamheid main section:first-of-type {
     padding: 355px 0px 200px 0px;
-    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/header-mobile/duurzaamheid-mobiel.jpg);
+    background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/section-header/duurzaamheid-top.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right center;
+    background-position: center center;
 }
 
 .duurzaamheid main article:first-of-type {
@@ -341,6 +363,9 @@ footer p:last-of-type {
     box-shadow: 1px 1px 3px #98989B;
     border-radius: 0.3em;
     margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .duurzaamheid main article:nth-of-type(2) h2 {
@@ -366,6 +391,8 @@ footer p:last-of-type {
     font-weight: bold;
     border-radius: 0.3em;
     margin: 0 0 1em 1em;
+    width: 10em;
+    height: 3em;
 }
 
 .duurzaamheid main article button:hover {
@@ -407,7 +434,16 @@ footer p:last-of-type {
     padding: 50px 0 50px 0;
 }
 
+.duurzaamheid main>section:nth-of-type(2)>h2 {
+    display: none;
+}
+
 @media (min-width:30em) {
+    .index header h1,
+    .duurzaamheid header h1 {
+        position: absolute;
+        left: 35%;
+    }
     .index main {
         grid-template-columns: 1fr 1fr;
     }
@@ -439,23 +475,25 @@ footer p:last-of-type {
         grid-template-columns: 1fr 1fr;
         margin: 5em;
     }
+    .duurzaamheid main section:first-of-type {
+        padding: 355px 0px 200px 0px;
+        background-image: url(https://www.cocacolanederland.nl/content/dam/one/nl/nl/section-header/duurzaamheid-top.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .duurzaamheid main article:first-of-type {
+        padding: 0 3em 0 3em;
+    }
     header nav nav {
-        text-align: left;
         left: -100em;
         top: 1.9em;
         width: 12em;
-        font-size: 2.4em;
-        position: absolute;
-        transition: 0.5s;
-        background-color: black;
-        z-index: -1;
-        height: 100%;
-        /* padding-bottom: 55em; */
         opacity: 0.8;
     }
     header nav nav.hamburger {
         list-style: none;
-        left: 0em;
+        left: -1.5em;
     }
 }
 
@@ -471,8 +509,13 @@ footer p:last-of-type {
         text-align: center;
     }
     .index main section:nth-of-type(8) {
-        padding: 60px 0 60px 0;
+        padding: 120px 0 60px 0;
         grid-column: span 2;
+    }
+    .index header h1,
+    .duurzaamheid header h1 {
+        position: absolute;
+        left: 40%;
     }
 }
 
@@ -482,5 +525,16 @@ footer p:last-of-type {
     }
     .index main section:nth-of-type(3) {
         padding: 50px 0 10px 0;
+    }
+    .duurzaamheid main>article:nth-of-type(2) {
+        grid-template-columns: 1fr 1fr;
+    }
+    .duurzaamheid main article img {
+        grid-row: span 3;
+    }
+    .index header h1,
+    .duurzaamheid header h1 {
+        position: absolute;
+        left: 45%;
     }
 }

@@ -5,7 +5,7 @@
 
 ## Bronnenlijst
 1. www.cocacolanederland.nl (afbeeldingen)
-2. CodePen oefeningen van Sanne
+2. CodePen oefeningen van Sanne (daar heb ik echt veel aan gehad, mag ook gezegd worden...)
 3. www.css-tricks.com
 4. www.w3schools.com
 

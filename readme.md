@@ -13,7 +13,7 @@
 
 ## Eindgesprek (week 7/8)
 
-Wat goed ging, en wat lastig was
+### Wat goed ging, en wat lastig was
 
 Ik ben over het algemeen vrij tevreden over het eindresultaat, ondanks dat er enkele verbeterpunten zijn. Qua kennis ben ik er op voorruit gegaan, voorheen wist ik vrijwel niks van bijv. flexbox of grid, en merk nu dat er ik aardig bedreven in ben geworden.
 Ik merkte gedurende het vak dat ik het opzich best leuk vond, maar alleen wanneer alles zo werkt als ik in gedachte heb. Wanneer dat niet het geval was merkte ik dat het vinden van motivatie om voortgang te maken moeilijk was. 

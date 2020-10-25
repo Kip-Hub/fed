@@ -1,24 +1,37 @@
 # Procesverslag
 **Daniel**
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. www.cocacolanederland.nl (afbeeldingen)
+2. CodePen oefeningen van Sanne
+3. www.css-tricks.com
+4. www.w3schools.com
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Wat goed ging, en wat lastig was
+
+Ik ben over het algemeen vrij tevreden over het eindresultaat, ondanks dat er enkele verbeterpunten zijn. Qua kennis ben ik er op voorruit gegaan, voorheen wist ik vrijwel niks van bijv. flexbox of grid, en merk nu dat er ik aardig bedreven in ben geworden.
+Ik merkte gedurende het vak dat ik het opzich best leuk vond, maar alleen wanneer alles zo werkt als ik in gedachte heb. Wanneer dat niet het geval was merkte ik dat het vinden van motivatie om voortgang te maken moeilijk was. 
+
+Ik kwam er tegen het einde achter dat dingetjes die ik nog even snel dacht te kunnen fixen, niet zo makkelijk te fixen waren. Ook had ik graag nog wat willen proberen een css slideshow te maken zoals op de originele website, maar alles wat ik online kon vinden was op een absoluut niet semantisch correcte manier uitgewerkt, dus besloot ik me op andere onderdelen te richten die ik nog moest maken. Ook het puntje toegankelijkheid (states, tab-index etc) is iets waar ik me nog graag in had willen verdiepen, maar waar ik niet aan toe ben gekomen.
+
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![-Resultaat_screenshot_1-](images/Eindresultaat_1.png)
+![-Resultaat_screenshot_2-](images/Eindresultaat_2.png)
+![-Resultaat_screenshot_3-](images/Eindresultaat_3.png)
+![-Resultaat_screenshot_4-](images/Eindresultaat_4.png)
+![-Resultaat_screenshot_5-](images/Eindresultaat_5.png)
+![-Resultaat_screenshot_6-](images/Eindresultaat_6.png)
+![-Resultaat_screenshot_7-](images/Eindresultaat_7.png)
+![-Resultaat_screenshot_8-](images/Eindresultaat_8.png)
+![-Resultaat_screenshot_9-](images/Eindresultaat_9.png)
 
 
 
